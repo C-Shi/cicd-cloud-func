@@ -6,7 +6,7 @@ steps:
     - deploy
     - function_cicd
     - --region=us-central1
-    - --source=.
+    - --source=function_source.zip
     - --trigger-http
     - --runtime=python312
     - --allow-unauthenticated
